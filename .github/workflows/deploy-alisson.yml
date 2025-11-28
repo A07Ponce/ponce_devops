@@ -38,7 +38,7 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         context: .
-        file: alisson
+        file: Dockerfile
         push: true
         tags: ghcr.io/a07ponce/alisson:3.0.0
 
